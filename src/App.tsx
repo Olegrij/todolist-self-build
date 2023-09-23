@@ -5,15 +5,15 @@ import {TaskType, Todolist} from "./Todolist";
 function App() {
 
     let tasks1: Array<TaskType> = [
-        { id: 1, title: "CSS", isDone: true },
-        { id: 2, title: "JS", isDone: true },
-        { id: 3, title: "React", isDone: false }
+        {id: 1, title: "CSS", isDone: true},
+        {id: 2, title: "JS", isDone: true},
+        {id: 3, title: "React", isDone: false}
     ]
 
-    let tasks2 = [
-        { id: 1, title: "Terminator", isDone: true },
-        { id: 2, title: "XXX", isDone: false },
-        { id: 3, title: "Jentlments of Fortune", isDone: true }
+    let tasks2: Array<TaskType> = [
+        {id: 1, title: "Terminator", isDone: true},
+        {id: 2, title: "XXX", isDone: false},
+        {id: 3, title: "Jentlments of Fortune", isDone: true}
     ]
 
     return (
